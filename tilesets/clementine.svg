@@ -20,6 +20,12 @@
   <defs
      id="defs1">
     <rect
+       x="198.0263"
+       y="342.469"
+       width="145.02514"
+       height="46.594422"
+       id="rect3" />
+    <rect
        x="154.34402"
        y="62.32004"
        width="0"
@@ -48,9 +54,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.60703127"
-     inkscape:cx="18.120978"
-     inkscape:cy="165.55984"
+     inkscape:zoom="1.7169437"
+     inkscape:cx="174.72908"
+     inkscape:cy="299.66038"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -119,5 +125,13 @@
        id="image1-93-0"
        x="144.18404"
        y="93.768341" />
+    <text
+       xml:space="preserve"
+       id="text3"
+       style="white-space:pre;shape-inside:url(#rect3);fill:#000000"
+       transform="matrix(1.8597092,0,0,1.8597092,-212.76168,-299.43973)"><tspan
+         x="198.02539"
+         y="353.38725"
+         id="tspan4">Amphithéâtre</tspan></text>
   </g>
 </svg>
