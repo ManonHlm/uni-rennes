@@ -333,7 +333,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 2455, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -460,7 +460,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":145.333333333333,
                  "id":2,
                  "name":"salleJitsi",
@@ -476,13 +475,13 @@
                          "value":"admin"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":250.666666666667,
                  "x":781.333333333333,
                  "y":532
                 }, 
                 {
-                 "class":"area",
                  "height":114,
                  "id":10,
                  "name":"poster",
@@ -493,13 +492,13 @@
                          "value":"https:\/\/heyzine.com\/flip-book\/daca8c92a6.html#page\/2"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":74,
                  "x":302,
                  "y":484
                 }, 
                 {
-                 "class":"area",
                  "height":119,
                  "id":11,
                  "name":"module 0",
@@ -510,6 +509,7 @@
                          "value":"https:\/\/view.genial.ly\/65b7c93063ce1400149b0e93"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":116,
                  "x":201,
@@ -619,7 +619,7 @@
          "value":"..\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.1",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -636,17 +636,8 @@
          "tilewidth":32
         }, 
         {
-         "columns":16,
          "firstgid":1651,
-         "image":"..\/tilesets\/LimeZu_MI_Basement.png",
-         "imageheight":1600,
-         "imagewidth":512,
-         "margin":0,
-         "name":"1",
-         "spacing":0,
-         "tilecount":800,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"..\/tilesets\/clementine.png"
         }, 
         {
          "columns":6,
@@ -855,9 +846,22 @@
          "tilecount":200,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":10,
+         "firstgid":10830,
+         "image":"..\/tilesets\/clementine.png",
+         "imageheight":640,
+         "imagewidth":320,
+         "margin":0,
+         "name":"clementine",
+         "spacing":0,
+         "tilecount":200,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":50
 }
